@@ -1,1 +1,2 @@
 # LeetCode-problem-122
+To solve the stock profit problem, I employed a greedy algorithm that focuses on capturing every profitable transaction. By iterating through the price array, I checked for increases in price from one day to the next. Whenever the price rose, I calculated the profit from that increase and added it to a cumulative total. This approach ensures that all potential gains from upward price movements are captured, resulting in the maximum profit achievable.
